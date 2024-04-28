@@ -372,8 +372,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eda">EDA</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analisis-de-sentimiento">Análisis de sentimiento</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elimando-stopwords">Elimando stopwords</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelado">Modelado</a></li>
 </ul>
             </nav>
         </div>
@@ -437,6 +438,8 @@ document.write(`
 </div>
 </div>
 </div>
+<section id="eda">
+<h2>EDA<a class="headerlink" href="#eda" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;RestaurantsReview.csv&quot;</span><span class="p">)</span>
@@ -1043,6 +1046,7 @@ memory usage: 1.2+ MB
 <img alt="_images/00ac75eb5ddaa891c9077355b21654e9cbdb0e04124293514d2dde51155e8290.png" src="_images/00ac75eb5ddaa891c9077355b21654e9cbdb0e04124293514d2dde51155e8290.png" />
 </div>
 </div>
+</section>
 <section id="analisis-de-sentimiento">
 <h2>Análisis de sentimiento<a class="headerlink" href="#analisis-de-sentimiento" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
@@ -1275,9 +1279,7 @@ memory usage: 1.2+ MB
 </div></div></div>
 </div>
 <p>*Es neutro ocurre cuando no hay reseña</p>
-</section>
-<section id="elimando-stopwords">
-<h2>Elimando stopwords<a class="headerlink" href="#elimando-stopwords" title="Link to this heading">#</a></h2>
+<p>Elimando stopwords</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Descargar las stopwords si no las tienes</span>
@@ -1678,7 +1680,9 @@ memory usage: 1.2+ MB
 </div>
 </div>
 </div>
-<p>Modelado</p>
+</section>
+<section id="modelado">
+<h2>Modelado<a class="headerlink" href="#modelado" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define models and expanded parameters</span>
@@ -2000,8 +2004,9 @@ La puntuación en el conjunto de prueba también es del 99.88%.</p></li>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eda">EDA</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analisis-de-sentimiento">Análisis de sentimiento</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elimando-stopwords">Elimando stopwords</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelado">Modelado</a></li>
 </ul>
   </nav></div>
 
